@@ -1,0 +1,16 @@
+:root {
+    --cor-texto-menu: #818487;
+    --cor-botao: #3880D0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fdfdfd;
+    font-family: 'Rubik';
+}
+
+body {
+    background-color: #111010;
+}

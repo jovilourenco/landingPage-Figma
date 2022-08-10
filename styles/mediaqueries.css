@@ -1,0 +1,89 @@
+@media screen and (max-width: 768px) {
+
+/* ===== MediaQueries do cabecalho.css ===== */
+
+    body {
+        display: inline;
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 0.5rem;
+
+    }
+
+
+    .menu__lista{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 0.5rem;
+        border-top: #fdfdfd solid 1px;
+        border-bottom: #fdfdfd solid 1px;
+        padding: 0.5re 0m;
+    }
+
+    .ativo {
+        padding: 0;
+    }
+
+/* ===== MediaQueries da Main.css ===== */
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .conteudo__titulo {
+        font-size: 48px;
+        margin-top: 2rem;
+    }
+
+    .conteudo__texto {
+        margin: 1em auto;
+    }
+
+    .main__imagem {
+        display: none;
+    }
+
+    .main__conteudo {
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    .main__lista {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista__principal {
+        margin: 0 auto;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .btn__start {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .add__text {
+        margin-bottom: 2rem;
+    }
+}

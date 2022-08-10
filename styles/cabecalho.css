@@ -1,0 +1,39 @@
+@import url(./reset.css);
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.menu__lista {
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+    list-style: none;
+}
+
+.menu__link {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--cor-texto-menu);
+}
+
+.ativo {
+    background-color: var(--cor-botao);
+    color: #fdfdfd;
+    padding: 8px 35px;
+    border-radius: 8px;
+}
+
+.menu__link:hover {
+    transition: 0.5s;
+    color: #fdfdfd;
+}
+
+.ativo:hover {
+    background-color: rgb(50, 110, 140);
+}

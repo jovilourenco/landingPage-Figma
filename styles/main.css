@@ -1,0 +1,83 @@
+@import url(./reset.css);
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+    width: 100%;
+    height: calc(100vh - 105px);
+    align-items: center;
+    justify-content: center;
+}
+
+.main__imagem img {
+    width: 700px;
+    height: 616px;
+}
+
+.conteudo__titulo {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.conteudo__texto {
+    width: 60%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    margin-bottom: 3.5rem;
+}
+
+.btn__start {
+    border: none;
+    background-color: var(--cor-botao);
+    padding: 15px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+
+.btn__demo {
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #111010;
+    border-radius: 5px;
+    border: #fdfdfd solid 1px;
+    padding: 15px 40px;
+}
+
+.add__text {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--cor-texto-menu);
+}
+
+.main__lista {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.lista__principal {
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+}
+
+.btn__start:hover {
+    transition: 0.5s;
+    background-color: rgb(50, 110, 140);
+    cursor: pointer;
+}
+
+.btn__demo:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: var(--cor-botao);
+    border: var(--cor-botao) 1px solid;
+}
